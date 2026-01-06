@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="largest among three"/>
+        <attribute name="authors" value="HARIVARSHINI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 05:05:03 PM"/>
+        <attribute name="created" value="SEFSSVZBUlNISU5JO0xBUFRPUC0yNzJQN0xESTsyMDI2LTAxLTA2OzAyOjU4OjIxIFBNOzMxOTk="/>
+        <attribute name="edited" value="SEFSSVZBUlNISU5JO0xBUFRPUC0yNzJQN0xESTsyMDI2LTAxLTA2OzA1OjA1OjAzIFBNOzI7MzMwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="3"/>
+            <assign variable="num2" expression="5"/>
+            <assign variable="num3" expression="7"/>
+            <if expression="num1&lt;=num2">
+                <then>
+                    <if expression="num1&lt;=num3">
+                        <then>
+                            <output expression="&quot;large number is num3&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;large number is num1&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="num2&lt;=num3">
+                        <then>
+                            <output expression="&quot;large number is num3&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;large number is num2&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

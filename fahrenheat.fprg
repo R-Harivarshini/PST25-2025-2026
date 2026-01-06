@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fahrenheat"/>
+        <attribute name="authors" value="HARIVARSHINI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 02:56:51 PM"/>
+        <attribute name="created" value="SEFSSVZBUlNISU5JO0xBUFRPUC0yNzJQN0xESTsyMDI2LTAxLTA2OzAyOjQ4OjU2IFBNOzMyMDY="/>
+        <attribute name="edited" value="SEFSSVZBUlNISU5JO0xBUFRPUC0yNzJQN0xESTsyMDI2LTAxLTA2OzAyOjU2OjUxIFBNOzE7MzMwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius" type="Integer" array="False" size=""/>
+            <declare name="F" type="Integer" array="False" size=""/>
+            <input variable="celsius"/>
+            <assign variable="F" expression="celsius*9/5+32"/>
+            <output expression="F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

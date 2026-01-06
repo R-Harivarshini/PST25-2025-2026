@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circum"/>
+        <attribute name="authors" value="HARIVARSHINI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 01:18:10 PM"/>
+        <attribute name="created" value="SEFSSVZBUlNISU5JO0xBUFRPUC0yNzJQN0xESTsyMDI2LTAxLTA2OzAxOjEyOjQ4IFBNOzMxOTc="/>
+        <attribute name="edited" value="SEFSSVZBUlNISU5JO0xBUFRPUC0yNzJQN0xESTsyMDI2LTAxLTA2OzAxOjE4OjEwIFBNOzE7MzMwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="circum" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="circum" expression="2*3.14*r"/>
+            <output expression="circum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
